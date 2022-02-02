@@ -22,17 +22,17 @@ spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL9Dialect"
 
 
 
-## Apos a configuração inicie a Aplicação GerenciadorTarefasApplication.java.
+Apos a configuração inicie a Aplicação GerenciadorTarefasApplication.java.
 
-## O endereço da api é que esta configurado na minha maquina é
+## Endereço da api
 
-## http://localhost:8080/tarefa
+O endereço da api é que esta configurado na minha maquina é http://localhost:8080/tarefa
 
 Listar tarefas
 
 
-Get
+## Get
 
-Put
+## Put
 
-Delete
+## Delete
