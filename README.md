@@ -1,4 +1,14 @@
+## Itens implementados
+b) Desenvolver o backend utilizando Java 11 e Spring Boot.
+
+c)Os endpoints devem ser em REST.
+
+e)Utilizar persistência em um banco de dados PostgreSQL e persistência JPA.
+
+
+
 ## API GERENCIADOR DE TAREFAS COM SPRING 
+Primeiro importe o projeto maven para sua ide de preferencia, configure a versão do java para 11.
 
 Para inicializar o spring boot sem erros é necessário Criar um banco local gerenciador-tarefas
 no PostgreSql e configurar ele no arquivo application.properties: 
@@ -36,3 +46,6 @@ Listar tarefas
 ## Put
 
 ## Delete
+
+
+
