@@ -1,6 +1,8 @@
 ## Itens implementados
 
-a) Criar uma aplicação Front-end utilizando Angular na versão mais recente.
+a) Criar uma aplicação Front-end utilizando Angular na versão mais recente. Link Repositorio:
+
+https://github.com/RaquelABrito/gerenciador-tarefas-angular
 
 b) Desenvolver o backend utilizando Java 11 e Spring Boot.
 
