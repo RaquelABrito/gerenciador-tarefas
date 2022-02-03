@@ -1,6 +1,5 @@
 package br.com.raquel.gerenciadortarefas.model;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.Objects;
 
@@ -20,7 +19,6 @@ import javax.persistence.TemporalType;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import br.com.raquel.gerenciadortarefas.enums.EnumPrioridade;
 import br.com.raquel.gerenciadortarefas.enums.EnumSituacaoTarefa;

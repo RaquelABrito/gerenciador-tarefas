@@ -1,15 +1,12 @@
 package br.com.raquel.gerenciadortarefas.repository;
 
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import br.com.raquel.gerenciadortarefas.model.Tarefa;
-import br.com.raquel.gerenciadortarefas.model.Usuario;
 
 @Repository
 public interface TarefaRepository extends JpaRepository<Tarefa, Long>{
