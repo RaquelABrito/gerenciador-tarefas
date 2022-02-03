@@ -46,7 +46,7 @@ public class TarefaController {
 	@Transactional
 	public List<DetalhesTarefaDto> lista() {
 		//List<Tarefa> tarefa = tarefaRepository.findAll();
-		List<Tarefa> tarefas = tarefaRepository.findAll();
+		List<Tarefa> tarefas = tarefaRepository.findAllAtivas();
 		return DetalhesTarefaDto.converter(tarefas);
 	}
 	
