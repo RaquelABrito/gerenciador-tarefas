@@ -1,4 +1,7 @@
 ## Itens implementados
+
+a) Criar uma aplicação Front-end utilizando Angular na versão mais recente.
+
 b) Desenvolver o backend utilizando Java 11 e Spring Boot.
 
 c)Os endpoints devem ser em REST.
