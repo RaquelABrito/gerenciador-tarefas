@@ -39,16 +39,27 @@ Apos a configuração inicie a Aplicação GerenciadorTarefasApplication.java.
 
 ## Endereço da api
 
-O endereço da api é que esta configurado na minha maquina é http://localhost:8080/tarefa
+O endereço da api é que esta configurado na minha maquina é http://localhost:8080/api/tarefas
 
 Listar tarefas
 
 
 ## Get
 
+http://localhost:8080/api/tarefas/listartarefas
+
+http://localhost:8080/api/tarefas/tarefas{id}
+
+
 ## Put
 
+ http://localhost:8080/api/tarefas
+ 
 ## Delete
+
+ http://localhost:8080/api/tarefas
+
+
 
 
 
