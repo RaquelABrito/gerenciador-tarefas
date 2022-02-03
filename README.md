@@ -50,6 +50,8 @@ Listar tarefas
 
 http://localhost:8080/api/tarefas/listartarefas
 
+http://localhost:8080/api/tarefas/tarefas/{id}
+
 Pegar tarefa por id exemplo:
 
 http://localhost:8080/api/tarefas/tarefas/1
@@ -60,7 +62,7 @@ http://localhost:8080/api/tarefas/{id}
 
 ## Delete
 
- http://localhost:8080/api/tarefas
+ http://localhost:8080/api/tarefas/{id}
 
 
 
