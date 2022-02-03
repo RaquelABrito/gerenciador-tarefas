@@ -51,7 +51,7 @@ public class TarefaController {
 	}
 	
 	/*Seleciona tarefa pelo identificador*/
-	@GetMapping("/tarefas/{id}")
+	@GetMapping("/{id}")
 	@Transactional
 	public  ResponseEntity<DetalhesTarefaDto> detalhesTarefa(@PathVariable Long id) {
 		//Evitar que a exception seja devolvida para o cliente no corpo da resposta
