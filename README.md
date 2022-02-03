@@ -64,6 +64,8 @@ http://localhost:8080/api/tarefas/{id}
 
  http://localhost:8080/api/tarefas/{id}
 
+## Post
+http://localhost:8080/api/tarefas/
 
 
 
