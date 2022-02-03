@@ -30,7 +30,7 @@ import br.com.raquel.gerenciadortarefas.repository.UsuarioRepository;
 
 
 @RestController
-@RequestMapping("/tarefa")
+@RequestMapping("/api/tarefas")
 public class TarefaController {
 	
 	 
@@ -42,7 +42,7 @@ public class TarefaController {
 	private UsuarioRepository usuarioRepository;
 	
 	/*Seleciona todas as tarefas*/
-	@GetMapping("/tarefas")
+	@GetMapping("/listartarefas")
 	@Transactional
 	public List<DetalhesTarefaDto> lista() {
 		//List<Tarefa> tarefa = tarefaRepository.findAll();
@@ -51,7 +51,7 @@ public class TarefaController {
 	}
 	
 	/*Seleciona tarefa pelo identificador*/
-	@GetMapping("/{id}")
+	@GetMapping("/tarefas/{id}")
 	@Transactional
 	public  ResponseEntity<DetalhesTarefaDto> detalhesTarefa(@PathVariable Long id) {
 		//Evitar que a exception seja devolvida para o cliente no corpo da resposta
@@ -73,7 +73,7 @@ public class TarefaController {
 		Tarefa tarefa = form.converter(usuarioRepository);
 		tarefaRepository.save(tarefa);
 		
-		URI uri = uriBuilder.path("/tarefa/{id}").buildAndExpand(tarefa.getId()).toUri();
+		URI uri = uriBuilder.path("/tarefas/{id}").buildAndExpand(tarefa.getId()).toUri();
 		return ResponseEntity.created(uri).body(new TarefaDto(tarefa));
 	}
 	
